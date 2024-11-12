@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE inversiones>
+<inversiones>
+    <fondos>
+        <fondo id="007-DF85" nombre="Distribuciones Financieras">
+            <empresas>
+                <empresa nombre="Sales S.L.">
+                    <sede>
+                        <pais nombre="España">
+                            <capital>Madrid</capital>
+                        </pais>
+                        <ciudad>Madrid</ciudad>
+                    </sede>
+                    <inversion>
+                        <capital>1.000.000€</capital>
+                        <plazo>5 años</plazo>
+                    </inversion>
+                </empresa>
+                <empresa nombre="Diseñadores Web S.A.">
+                    <sede>
+                        <pais nombre="Francia">
+                            <capital>Paris</capital>
+                        </pais>
+                        <ciudad>Marsella</ciudad>
+                    </sede>
+                    <inversion>
+                        <capital>50.000€</capital>
+                        <plazo>10 meses</plazo>
+                    </inversion>
+                </empresa>
+            </empresas>
+        </fondo>
+        <fondo id="008-MI92" nombre="Manufacturas Internacionales">
+            <empresas>
+                <empresa nombre="Investment Associate">
+                    <sede>
+                        <pais nombre="EEUU">
+                            <capital>Washington</capital>
+                        </pais>
+                        <ciudad>Los Angeles</ciudad>
+                    </sede>
+                    <inversion>
+                        <capital>10.000.000$</capital>
+                        <plazo>1 año</plazo>
+                    </inversion>
+                </empresa>
+            </empresas>
+        </fondo>
+    </fondos>
+</inversiones>

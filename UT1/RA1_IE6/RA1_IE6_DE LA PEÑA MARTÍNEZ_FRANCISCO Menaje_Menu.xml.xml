@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE menaje_menu>
+<vajilla>
+    <platos>
+        <plato1 modelo="Phillips" tipo="Hondo" diametro="18" medida="cm" stock="12"/>
+        <plato2 modelo="Samsung" tipo="Llano" diametro="32" medida="cm" stock="3"/>
+    </platos>
+    <cristaleria>
+        <cristal1 modelo="Murano" tipo="copa champagne" capacidad="18" medida="ml" stock="8"/>
+        <cristal2 modelo="Carcasonne" tipo="copa vino" capacidad="8" medida="ml" stock="20"/>
+    </cristaleria>
+    <cuberteria>
+        <cubierto1 modelo= "Manolo Cubiertos SL" tipo="cuchara de postre" Stock="6"/>
+        <cubierto2 modelo= "Paco Cubiertos ADSL" tipo="tenedor de carne" Stock="9"/>
+    </cuberteria>
+</vajilla>
+<comida>
+    <comida1 id="1" nombre="Ensalada Mixta">
+        <descripcion>ensalada compuesta de lechuga, rúcula, bonito, zanahoria y tomate</descripcion>
+        <categoria>entrante</categoria>
+        <precio total="6,50" moneda="euro"/>
+    </comida1>
+    <comida2 id="2" nombre="Pato a la Naranja">
+        <descripcion>plato compuesto de pato de Beijing con salsa de naranja natural exprmida y patatas gajo</descripcion>
+        <categoria>segundo plato de carne</categoria>
+        <precio total="11" moneda="euro"/>
+    </comida2>
+    <comida3 id="3" nombre="Tarta de Queso">
+        <descripcion>plato compuesto con una base de galleta y Tarta de Queso rematada con sirope de fresa</descripcion>
+        <categoria>postre</categoria>
+        <precio total="4,50" moneda="euro"/>
+    </plato3>
+</comida>

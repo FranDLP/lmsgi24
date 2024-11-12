@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE tickets>
+<carburante>
+    <ticket1>
+        <empresa nombre="Repsol" telefono="942035590" n.iri="29/12301"/>
+        <repostaje n.tpv="54" cantidad="22,85" unidad="litros"/>
+        <precio base="1,39" iva= "21%" total="1,76" moneda="euro"/>
+        <coste base="31,76" iva="21%" total="40,21" moneda="euro"/>
+    </ticket1>
+    <ticket2>
+        <empresa nombre="Repsol" movil="667299350" n.iri="29/12301"/>
+        <repostaje n.tpv="55" cantidad="40,95" unidad="litros"/>
+        <precio base="1,39" iva= "10%" total="1,53" moneda="euro"/>
+        <coste base="56,92" iva="10%" total="62,61" moneda="euro"/>
+    </ticket2>
+</carburante>

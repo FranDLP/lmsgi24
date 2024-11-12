@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE menaje>
+<vajilla>
+    <platos>
+        <plato1 modelo="Phillips" tipo="Hondo" diametro="18" medida="cm" stock="12"/>
+        <plato2 modelo="Samsung" tipo="Llano" diametro="32" medida="cm" stock="3"/>
+    </platos>
+    <cristaleria>
+        <cristal1 modelo="Murano" tipo="copa champagne" capacidad="18" medida="ml" stock="8"/>
+        <cristal2 modelo="Carcasonne" tipo="copa vino" capacidad="8" medida="ml" stock="20"/>
+    </cristaleria>
+    <cuberteria>
+        <cubierto1 modelo= "Manolo Cubiertos SL" tipo="cuchara de postre" Stock="6"/>
+        <cubierto2 modelo= "Paco Cubiertos ADSL" tipo="tenedor de carne" Stock="9"/>
+    </cuberteria>
+</vajilla>

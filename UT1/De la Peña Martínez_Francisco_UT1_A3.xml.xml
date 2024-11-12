@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE agenda>
+	<empleados>
+		<contacto email="agonzalez@empresa.com">
+			<nombre> Alejandro </nombre>
+			<apellido> González </apellido>
+			<telefono> 673002199 </telefono>
+			<area_geografica> América del Sur </area_geografica>
+			<pais> Argentina </pais>
+			<ciudad> Buenos Aires </ciudad>
+		<contacto email="mlucero@empresa.com">
+			<nombre> Mabel </nombre>
+			<apellido> Lucero </apellido>
+			<telefono> 674500121 </telefono>
+			<area_geografica> América del Sur </area_geografica>
+			<pais> Córdoba	</pais>
+			<ciudad> Buenos Aires </ciudad>
+		<contacto email="mmoreno@empresa.com">
+			<nombre> Mario </nombre>
+			<apellido> Moreno </apellido>
+			<telefono> 670121231 </telefono>
+			<area_geografica> América Central </area_geografica>
+			<pais> México </pais>
+			<ciudad> Distrito Federal</ciudad>
+		<contacto email="dmonteagudoempresa.com">
+			<nombre> Dolores </nombre>
+			<apellido> Monteagudo </apellido>
+			<telefono> 675261439 </telefono>
+			<area_geografica> América Central </area_geografica>
+			<pais> México </pais>
+			<ciudad> Puebla</ciudad>
+		<contacto email="jrodriguez@empresa.com">
+			<nombre> John </nombre>
+			<apellido> Rodríguez </apellido>
+			<telefono> 911032230 </telefono>
+			<area_geografica> América del Norte </area_geografica>
+			<pais> EEUU </pais>
+			<ciudad> Miami </ciudad>
+		<contacto email="wburbank@empresa.com">
+			<nombre> William </nombre>
+			<apellido> Burbank </apellido>
+			<telefono> 913029990 </telefono>
+			<area_geografica> América del Norte </area_geografica>
+			<pais> EEUU </pais>
+			<ciudad> Chicago </ciudad>
+		<contacto email="jochoa@empresa.com">
+			<nombre> Jesús </nombre>
+			<apellido> Ochoa </apellido>
+			<telefono> 910020120 </telefono>
+			<area_geografica> Europa </area_geografica>
+			<pais> España </pais>
+			<ciudad> Madrid </ciudad>
+		<contacto email="ronetto@empresa.com">
+			<nombre> Rafellas </nombre>
+			<apellido> Onetto </apellido>
+			<telefono> 912333660 </telefono>
+			<area_geografica> Europa </area_geografica>
+			<pais> Italia </pais>
+			<ciudad> Roma </ciudad>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE tickets>
+    <ticket1>
+        <carburante>
+            <empresa nombre="repsol" telefono="942035590" n.iri="29/12301"/>
+            <repostaje n.tpv="54" producto="gasoil" cantidad="22,85" unidad="litros"/>
+            <precio base="1,39" iva= "21%" total="1,76" moneda="euro"/>
+            <coste base="31,76" iva="21%" total="40,21" moneda="euro"/>
+        </carburante>
+        <comida>
+            <alimento nombre="chicle de fresa" cantidad="1"/>
+            <coste base="1" iva="21%" total="1,21" moneda="euro"/>
+         </comida>
+        <importe total="41,42" moneda="euro"/>
+    </ticket1>
+    <ticket2>
+        <empresa nombre="repsol" movil="667299350" n.iri="29/12301"/>
+        <repostaje n.tpv="55" producto="gasoil"  cantidad="40,95" unidad="litros"/>
+        <precio base="1,39" iva= "10%" total="1,53" moneda="euro"/>
+        <coste base="56,92" iva="10%" total="62,61" moneda="euro"/>
+    <comida>
+            <alimento nombre="chicle de fresa" cantidad="1"/>
+            <coste base="1" iva="21%" total="1,21" moneda="euro"/>
+         </comida>
+        <importe total="73,82" moneda="euro"/>
+    </ticket2>
+
+

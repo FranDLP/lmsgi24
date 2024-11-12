@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE menu>
+<platos>
+    <plato1 id="1" nombre="Ensalada Mixta">
+        <descripcion>ensalada compuesta de lechuga, rúcula, bonito, zanahoria y tomate</descripcion>
+        <categoria>entrante</categoria>
+        <precio total="6,50" moneda="euro"/>
+    </plato1>
+    <plato2 id="2" nombre="Pato a la Naranja">
+        <descripcion>plato compuesto de pato de Beijing con salsa de naranja natural exprmida y patatas gajo</descripcion>
+        <categoria>segundo plato de carne</categoria>
+        <precio total="11" moneda="euro"/>
+    </plato2>
+    <plato2 id="3" nombre="Tarta de Queso">
+        <descripcion>plato compuesto con una base de galleta y Tarta de Queso rematada con sirope de fresa</descripcion>
+        <categoria>postre</categoria>
+        <precio total="4,50" moneda="euro"/>
+    </plato3>
+</platos>
