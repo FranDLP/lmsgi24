@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Francisco de la Peña Martínez, incluyendo experiencia laboral, habilidades y formación.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Francisco de la Peña Martínez - Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
@@ -10,10 +11,11 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #333; /* Color gris oscuro para el texto */
-            background-color: #b0d7f1; /* Fondo azul claro para el cuerpo */
-            margin: 0;
-            padding: 0;
+            color: #333;
+            background-image: url('https://www.transparenttextures.com/patterns/bubbles.png'); /* Imagen de fondo 3D con burbujas */
+            background-color: #e6f7ff;
+            background-size: cover;
+            background-attachment: fixed;
         }
 
         .container {
@@ -24,44 +26,20 @@
 
         /* Estilo para el header */
         header {
-            background-color:rgba(176, 215, 241, 0.85); /* Fondo azul con opacidad para el header */
-            color: black); /* Color blanco para el texto del header */
+            background: rgba(41, 128, 185, 0.85);
+            color: rgb(246, 252, 253);
             padding: 40px 0;
             text-align: center;
+            border-bottom: 5px solid #0d99f7;
         }
 
         header h1 {
-            font-size: 3em; /* Aumenta el tamaño de la fuente */
-            font-family: 'Arial', sans-serif; /* Puedes probar con otras fuentes si lo prefieres */
-            font-weight: bold; /* Acentúa el texto */
-            text-transform: uppercase; /* Transforma el texto a mayúsculas */
-            color: #fff; /* Blanco para contrastar con el fondo */
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Añade sombra para hacerlo más visible */
-            letter-spacing: 2px; /* Espaciado entre letras */
-            margin-bottom: 10px; /* Separación entre el h1 y el siguiente contenido */
-            transition: transform 0.3s ease, color 0.3s ease; /* Efecto de transición */
-        }
-
-        header h1:hover {
-            transform: scale(1.1); /* Efecto de agrandar el texto al pasar el mouse */
-            color: #0d99f7; /* Cambia el color a azul claro cuando pasa el mouse */
+            font-size: 2.8em;
+            margin-bottom: 10px;
         }
 
         header p {
             font-size: 1.3em;
-        }
-
-        header img {
-            width: 100%;
-            max-width: 300px; /* Tamaño máximo proporcional */
-            height: auto;
-            border-radius: 50%;
-            object-fit: cover; /* Asegura que la imagen no se distorsione */
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-            margin-left: 20px; /* Separación con el texto */
-            margin-left: 0;
-            margin-top: 20px;
-            max-width: 400px; /* Reduce el tamaño en pantallas más pequeñas */
         }
 
         /* Sección habilidades */
@@ -87,6 +65,14 @@
 
         ul li {
             text-align: center;
+            background: white;
+            border: 10px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            transition: transform 0.3s ease;
         }
 
         .lenguaje-logo {
@@ -137,74 +123,78 @@
         }
 
         /* Carta de recomendación */
-        #recommendation {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 40px 0;
-            background-color: rgba(176, 215, 241, 0.85); /* Fondo azul con opacidad */
-        }
+        /* CSS para estilizar la sección "Carta de Recomendación" */
 
-        .recommendation {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background: white; /* Fondo blanco */
-            border: 10px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 700px;
-            width: 90%;
-            padding: 20px;
-            gap: 20px;
-            text-align: center;
-        }
+#recommendation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
 
-        .recommendation p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-        }
+.recommendation {
+    display: flex;
+    flex-direction: column; /* Cambiado para centrar en vertical */
+    align-items: center;
+    background: #ffffff;
+    border: 10px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 90%;
+    padding: 40px;
+    gap: 20px;
+    text-align: center; /* Centrar texto */
+    justify-content: center; /* Asegura el centrado en el eje vertical */
+}
 
-        .recommendation img {
-            max-width: 150px;
-            border-radius: 50%;
-            border: 3px solid #2c3e50;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
+.recommendation p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
 
-        .recommendation img:hover {
-            transform: scale(1.1);
-        }
+.recommendation img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
 
-        /* Responsividad */
-        @media (max-width: 768px) {
-            .recommendation {
-                text-align: center;
-            }
+.recommendation img:hover {
+    transform: scale(1.1);
+}
 
-            .recommendation img {
-                margin-top: 20px;
-            }
-        }
+/* Responsividad */
+@media (max-width: 768px) {
+    #recommendation {
+        padding: 20px 0; /* Menos espacio en pantallas pequeñas */
+    }
 
-        /* Enlace al formulario */
-        .enlace {
+    .recommendation {
+        width: 100%; /* Asegura que ocupe el 100% del ancho disponible */
+    }
+
+    .recommendation img {
+        margin-top: 10px; /* Espacio reducido si es necesario */
+    }
+}
+/* Enlace al formulario */
+.enlace{
             margin: 40px auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 600px;
-            line-height: 1.8;
         }
-
         /* Footer */
         footer {
-            background: rgba(176, 215, 241, 0.85);
+            background: rgba(41, 128, 185, 0.85);
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -224,24 +214,26 @@
         }
     </style>
 </head>
-<body>
+<body>  
     <!-- Encabezado con título y subtítulo -->
     <header>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#formulario">Formulario</a></li>
+                <li><a href="#home" title="Ir al inicio">Home</a></li>
+                <li><a href="#habilidades" title="Ir a habilidades">Habilidades</a></li>
+                <li><a href="#portfolio"title="Ir al portfolio">Portfolio</a></li>
+                <li><a href="#formulario"title="Ir al formulario">Formulario</a></li>
             </ul>
         </nav>
         <h1 class="encabezado">Francisco de la Peña Martínez</h1>
         <h2>26 años Santander</h2>
-        <a> !Hola!, Soy Fran bienvenidos a mi página personal de programación </a>
-        <img src="https://c.files.bbci.co.uk/165C4/production/_121888519_parag-agarwal_hires.jpg" alt="Foto Personal" />
-    </header>
-
-    <!-- Sección Presentación -->
+        <div class="experience-container">
+            <div class="job-card">
+                <img src="Imagenes/3974 copia.png" alt="Foto personal">
+        </div>
+            </header>
+    
+    <!-- Formación -->
     <div class="section education">
         <h2>Formación</h2>
         <ul>
@@ -252,64 +244,66 @@
         </ul>
     </div>
 
-    <!-- Sección Habilidades -->
-    <section id="skills">
-        <div class="container">
-            <h2>Mis Habilidades</h2>
-            <ul>
-                <li>
-                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5">
-                    <p><strong>HTML5</strong>: Experiencia desarrollando estructuras semánticas y optimizando contenido web.</p>
-                </li>
-                <li>
-                    <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" class="lenguaje-logo" alt="CSS3">
-                    <p><strong>CSS3</strong>: Dominio en el diseño de estilos responsivos y adaptables a diversos dispositivos.</p>
-                </li>
-                <li>
-                    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png" class="lenguaje-logo" alt="JavaScript">
-                    <p><strong>JavaScript</strong>: Experiencia en la implementación de funcionalidades interactivas y dinámicas.</p>
-                </li>
-                <li>
-                    <img src="https://img.icons8.com/?size=100&id=38804&format=png&color=000000" class="lenguaje-logo" alt="Salesforce">
-                    <p><strong>Salesforce</strong>: Herramienta integrada para medir rendimiento y toma de decisiones.</p>
-                </li>
-                <li>
-                    <img src="https://img.icons8.com/?size=100&id=13654&format=png&color=000000" class="lenguaje-logo" alt="Excel">
-                    <p><strong>Excel</strong>: Herramienta de almacenamiento de bases de datos notariales a escala empresarial.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Sección Portfolio -->
-    <section id="experience">
-        <div class="container">
-            <h2>Portfolio laboral</h2>
-            <div class="experience-container">
-                <div class="job-card">
-                    <img src="https://www.guarasi.com/wp-content/uploads/2014/06/especialistas-informaticos.jpg" alt="Atención al Cliente">
-                    <h3>Atento - Sector Energético</h3>
-                    <p>2 años de experiencia en atención al cliente en el sector energético, manejando consultas y resolviendo incidencias de forma eficiente mediante el programa <strong>Salesforce</strong>.</p>
-                    <h3>Santalucía - Asesor Comercial y gestor documental</h3>
-                    <p>6 meses de experiencia en atención al cliente, gestionando pólizas de clientes a través de Excel, manejando consultas y ayudando a resolver dudas en oficina <strong> Excel</strong>.</p>
+        <main>
+            <!-- Habilidades -->
+            <section id="skills">
+                <div class="container">
+                    <h2>Mis Habilidades</h2>
+                    <ul>
+                        <li>
+                            <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" class="lenguaje-logo" alt="HTML5">
+                            <p><strong>HTML5</strong>: Experiencia desarrollando estructuras semánticas y optimizando contenido web.</p>
+                        </li>
+                        <li>
+                            <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" class="lenguaje-logo" alt="CSS3">
+                            <p><strong>CSS3</strong>: Dominio en el diseño de estilos responsivos y adaptables a diversos dispositivos.</p>
+                        </li>
+                        <li>
+                            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png" class="lenguaje-logo" alt="JavaScript">
+                            <p><strong>JavaScript</strong>: Experiencia en la implementación de funcionalidades interactivas y dinámicas.</p>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/?size=100&id=38804&format=png&color=000000" class="lenguaje-logo" alt="Salesforce">
+                            <p><strong>Salesforce</strong>: Herramienta integrada para medir rendimiento y toma de decisiones.</p>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/?size=100&id=13654&format=png&color=000000" class="lenguaje-logo" alt="Excel">
+                            <p><strong>Excel</strong>: Herramienta de almacenamiento de bases de datos notariales a escala empresarial.</p>
+                        </li>
+                        </ul>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
+        
+            <!-- Experiencia Laboral -->
+            <section id="experience">
+                <div class="container">
+                    <h2>Experiencia Laboral</h2>
+                    <div class="experience-container">
+                        <div class="job-card">
+                            <img src="https://www.guarasi.com/wp-content/uploads/2014/06/especialistas-informaticos.jpg" alt="Atención al Cliente">
+                            <h3>Atento - Sector Energético</h3>
+                            <p>2 años de experiencia en atención al cliente en el sector energético, manejando consultas y resolviendo incidencias de forma eficiente mediante el programa <strong>Salesforce</strong>.</p>
+                            <h3>Santalucía - Asesor Comercial y gestor documental</h3>
+                            <p>6 meses de experiencia en atención al cliente, gestionando pólizas de clientes a través de Excel, manejando consultas y ayudando a resolver dudas en oficina <strong> Excel</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Carta de Recomendación -->
+            <section id="recommendation">
+                <div class="container">
+                    <h2>Carta de Recomendación</h2>
+                    <div class="recommendation">
+                        <p>"Francisco de la Peña Martínez ha demostrado una gran capacidad para manejar el programa <strong>Salesforce</strong> durante su desempeño en Atento. Destaca por su eficiencia, organización y habilidad para resolver incidencias de manera rápida y efectiva. Fue un elemento clave en el éxito del equipo y en la satisfacción de los clientes en el sector energético."</p>
+                        <p><strong> Máximo Menéndez Calgliari</strong><br>Coordinador Atento</p>
+                        <img src="https://img.freepik.com/fotos-premium/sonriente-hombre-hispano-traje-hombre-negocios-asistente-negocios-persona-empleado-oficina-gerente-empresa_717737-5482.jpg" alt="Coordinador">
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <!-- Carta de Recomendación -->
-    <section id="recommendation">
-        <div class="container">
-            <h2>Carta de Recomendación</h2>
-            <div class="recommendation">
-                <p>"Francisco de la Peña Martínez ha demostrado una gran capacidad para manejar el programa <strong>Salesforce</strong> durante su desempeño en Atento. Destaca por su eficiencia, organización y habilidad para resolver incidencias de manera rápida y efectiva. Fue un elemento clave en el éxito del equipo y en la satisfacción de los clientes en el sector energético."</p>
-                <p><strong> Máximo Menéndez Calgliari</strong><br>Coordinador Atento</p>
-                <img src="https://img.freepik.com/fotos-premium/sonriente-hombre-hispano-traje-hombre-negocios-asistente-negocios-persona-empleado-oficina-gerente-empresa_717737-5482.jpg" alt="Coordinador">
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Formulario -->
+        <!-- Sección Formulario -->
     <section id="formulario">
         <div class="section">
             <h2>Formulario de Contacto</h2>
@@ -330,10 +324,9 @@
             </form>
         </div>
     </section>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2025 Francisco de la Peña Martínez - Todos los derechos reservados</p>
-    </footer>
-</body>
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Francisco de la Peña Martínez</p>
+        </footer>
+    </body>
 </html>
