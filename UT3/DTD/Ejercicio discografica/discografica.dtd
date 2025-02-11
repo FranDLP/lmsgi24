@@ -1,0 +1,15 @@
+    <!ELEMENT discografica (grupos, empleados)>
+    <!ELEMENT grupos (grupo+)>
+    <!ELEMENT grupo (componentes, discos)>
+        <!ATTLIST grupo nombre CDATA #REQUIRED>
+        <!ATTLIST grupo estilo CDATA #REQUIRED>
+    
+    <!ELEMENT componentes (componente+)>
+    <!ELEMENT componente (#PCDATA)>
+        <!ATTLIST componente instrumento CDATA #REQUIRED>
+    
+    <!ELEMENT discos (disco+)>
+    <!ELEMENT disco (#PCDATA)>
+        <!ATTLIST disco orde CDATA #REQUIRED>
+    
+    <!ELEMENT empleados (#PCDATA)>
