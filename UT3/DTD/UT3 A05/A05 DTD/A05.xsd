@@ -1,8 +1,8 @@
 <!ELEMENT anuario (articulo*)>
-<!ATTLIST anuario año CDATA #REQUIRED>
+    <!ATTLIST anuario año CDATA #REQUIRED>
 
 <!ELEMENT articulo (titulo, fecha, numLectores, autores)>
-<!ATTLIST articulo identificador CDATA #REQUIRED>
+    <!ATTLIST articulo identificador CDATA #REQUIRED>
 
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
@@ -10,4 +10,4 @@
 
 <!ELEMENT autores (autor*)>
 <!ELEMENT autor (#PCDATA)>
-<!ATTLIST autor nombre CDATA #REQUIRED mail CDATA #REQUIRED>
+    <!ATTLIST autor nombre CDATA #REQUIRED mail CDATA #REQUIRED>
