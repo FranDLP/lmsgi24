@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<anuario año="2018"
+<catalogo
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="biblioteca.xsd">
-    <articulo identificador="A-6785">
+         xsi:noNamespaceSchemaLocation="Biblioteca.xsd">
+    <libro ISBN="978-3-16-148410-0">
         <titulo>Microsoft quiere comerse a Slack</titulo>
-        <fecha>2018-01-10</fecha>
+        <fecha>2020-01-05</fecha>
         <numLectores>25000</numLectores>
         <autores>
             <autor nombre="Pedro Picapiedra" mail="jimenez@aruario.es"/>
             <autor nombre="Alonso Pérez" mail="rosamar@exterior.es"/>
         </autores>
-    </articulo>
-    <articulo identificador="C-0780">
-        <titulo>La ética de la Libertad </titulo>
-        <fecha>2020</fecha>
+    </libro>
+    <libro ISBN="974-1-46-140010-5">
+        <titulo>La ética de la Libertad</titulo>
+        <fecha>2020-01-09</fecha>
+        <numLectores>35000</numLectores>
         <autores>
             <autor nombre="Murray N. Rothbard" mail="murrayrothbard@editorial.es"/>
         </autores>
-    </articulo>
-</anuario>
+    </libro>
+</catalogo>
