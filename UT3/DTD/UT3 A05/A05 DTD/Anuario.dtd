@@ -1,4 +1,4 @@
-<!ELEMENT anuario (articulo*)>
+<!ELEMENT anuario (artículo*)>
     <!ATTLIST anuario año CDATA #REQUIRED>
 
 <!ELEMENT articulo (titulo, fecha, numLectores, autores)>
