@@ -5,12 +5,12 @@
     <xs:element name="catalogo">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="libro" maxOccurs="unbounded">
+                <xs:element name="articulo" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
                             <xs:element name="fecha" type="xs:date"/>
-                            <xs:element name="autores">
+                            <xs:element name="numLectores">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="autor" maxOccurs="unbounded">

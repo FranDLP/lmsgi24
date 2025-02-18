@@ -2,16 +2,16 @@
 <catalogo año="2018"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="biblioteca.xsd">
-    <articulo identificador="A-6785">
+    <articulo ISBN="1-888-112-445-21-2" identificador="A-6785">
         <titulo>Microsoft quiere comerse a Slack</titulo>
         <fecha>2018-01-10</fecha>
-        <numLectores>25000</numLectores>
+        <numLectores>4000</numLectores>
         <autores>
             <autor nombre="Pedro Picapiedra" mail="jimenez@aruario.es"/>
             <autor nombre="Alonso Pérez" mail="rosamar@exterior.es"/>
         </autores>
     </articulo>
-    <articulo identificador="C-0780">
+    <articulo ISBN="2-436-732-100-22-1" identificador="C-0780">
         <titulo>Regalos para padres </titulo>
         <fecha>2018-01-20</fecha>
         <numLectores>25000</numLectores>
