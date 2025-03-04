@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="personajes">
+     <xs:complexType>
+        <xs:sequence>
+        <xs:element name="personaje" type="xs:string"/>
+    
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Id" type="xs:integer" maxOccurs="unbounded"/>
+                    <xs:element name="Nombre" type="xs:string" maxOccurs="unbounded"/>
+                    <xs:element name="Anno nacimiento" type="xs:date"/>
+                    <xs:element name="Genero" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+    <xs:element name="carateristicas_fisicas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Altura" type="xs:decimal"/>
+                <xs:element name="Peso" type="xs:integer"/>
+                <xs:element name="Color_pelo" type="xs:string"/>
+                <xs:element name="Color_piel" type="xs:string"/>
+                <xs:element name="Color_ojos" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+        <xs:element name="planeta" type="xs:string" maxOccurs= "1"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Id" type="xs:integer"/>
+                <xs:element name="Nombre" type="xs:string"/>
+                <xs:element name="Poblacion" type="xs:string"/>
+                <xs:element name="Idioma" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+          <xs:element name="datos_fisicos" type="xs:string" maxOccurs= "unbounded"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="periodo_rotacion" type="xs:string"/>
+                <xs:element name="periodo_orbital" type="xs:string"/>
+                <xs:element name="Diametro" type="xs:decimal"/>
+                <xs:element name="Clima" type="xs:string"/>
+            </xs:sequence>
+        <xs:complexType>
+    </xs:complexType>
+       <xs:element name="superficie" type="xs:string" maxOccurs= "unbounded"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="terreno" type="xs:string"/>
+                <xs:element name="agua" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+   </xs:element>
+
+</xs:schema>
