@@ -1,0 +1,35 @@
+<!ELEMENT Personajes (Personaje+)>
+<!ELEMENT Personajes (#PCDATA)>
+<!ELEMENT Personaje (Caracteristicas_fisicas, planeta)>
+
+    <!ATTLIST Personaje Id CDATA #REQUIRED>
+    <!ATTLIST Personaje Nombre CDATA #REQUIRED>
+    <!ATTLIST Personaje Anno_Nacimiento CDATA #REQUIRED>
+    <!ATTLIST Personaje Genero CDATA #REQUIRED>
+
+<!ELEMENT Cracteristicas_fisicas (Caracteristicas_fisicas+)>
+<!ELEMENT Caracteristicas_fisicas (#PCDATA)>
+<!ELEMENT Caracteristicas_fisicas (Altura, Peso, Color_pelo, Color_piel, Color_ojos)>
+
+    <!ATTLIST Caracteristicas_fisicas Altura CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas_fisicas Peso CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas_fisicas Color_pelo CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas_fisicas Color_piel CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas_fisicas Color_ojos CDATA #REQUIRED>
+
+    <!ATTLIST Planeta Id CDATA #REQUIRED>
+    <!ATTLIST Planeta Nombre CDATA #REQUIRED>
+    <!ATTLIST Planeta Población CDATA #REQUIRED>
+    <!ATTLIST Planeta Idioma CDATA #REQUIRED>
+
+<!ELEMENT Planeta (Planeta+)>
+<!ELEMENT Planeta (#PCDATA)>
+<!ELEMENT Planeta (Datos_físicos, superficie)>
+
+    <!ATTLIST Datos_fisicos Periodo_Rotacion CDATA #REQUIRED>
+    <!ATTLIST Datos_fisicos Periodo_Orbital CDATA #REQUIRED>
+    <!ATTLIST Datos_fisicos Diámetro CDATA #REQUIRED>
+    <!ATTLIST Datos_fisicos Clima CDATA #REQUIRED>
+
+    <!ATTLIST Superficie Terreno CDATA #REQUIRED>
+    <!ATTLIST Superficie Agua CDATA #REQUIRED>

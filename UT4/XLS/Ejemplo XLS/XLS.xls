@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <!-- Aplicar la transformación a toda la página -->
+    <xsl:output method="html" indent="yes"/>
+
+    <!-- Plantilla para la página principal -->
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Galería de Coches</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f4f4f4;
+                        margin: 0;
+                        padding: 0;
+                        text-align: center;
+                    }
+
+                    h1 {
+                        background-color: #333;
+                        color: white;
+                        padding: 20px;
+                        margin: 0;
+                    }
+
+                    .coches {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                        gap: 20px;
+                        padding: 20px;
+                    }
+
+                    .coche {
+                        background-color: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        text-align: left;
+                    }
+
+                    .coche img {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 10px;
+                    }
+
+                    .coche h2 {
+                        color: #333;
+                        font-size: 24px;
+                        margin: 10px 0;
+                    }
+
+                    .coche p {
+                        font-size: 18px;
+                        margin: 5px 0;
+                    }
+
+                    .coche strong {
+                        color: #555;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Bienvenidos a nuestra galería de coches</h1>
+                <div class="coches">
+                    <xsl:apply-templates select="coches/coche"/>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+
+    <!-- Plantilla para cada coche -->
+    <xsl:template match="coche">
+        <div class="coche">
+            <img src="{imagen}" alt="Imagen del coche"/>
+            <h2><xsl:value-of select="marca"/> <xsl:value-of select="modelo"/></h2>
+            <p><strong>Año:</strong> <xsl:value-of select="año"/></p>
+            <p><strong>Color:</strong> <xsl:value-of select="color"/></p>
+            <p><strong>Precio:</strong> <xsl:value-of select="precio"/></p>
+        </div>
+    </xsl:template>
+</xsl:stylesheet>

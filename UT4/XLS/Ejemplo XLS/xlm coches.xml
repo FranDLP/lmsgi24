@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche>
+        <marca>Ford</marca>
+        <modelo>Mustang</modelo>
+        <año>2021</año>
+        <color>Rojo</color>
+        <precio>$30,000</precio>
+        <imagen>mustang.jpg</imagen>
+    </coche>
+    <coche>
+        <marca>Chevrolet</marca>
+        <modelo>Camaro</modelo>
+        <año>2020</año>
+        <color>Azul</color>
+        <precio>$28,000</precio>
+        <imagen>camaro.jpg</imagen>
+    </coche>
+    <coche>
+        <marca>Toyota</marca>
+        <modelo>Supra</modelo>
+        <año>2022</año>
+        <color>Negro</color>
+        <precio>$40,000</precio>
+        <imagen>supra.jpg</imagen>
+    </coche>
+</coches>
+
+</coches>
