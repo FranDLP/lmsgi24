@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Personajes>
 <!-- DTD INTERNO
@@ -89,4 +90,97 @@
             </datos_fisicos>
         </planeta>
     </personaje>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Personajes>
+<!-- DTD INTERNO
+
+<!ELEMENT Personajes (Personaje+)>
+<!ELEMENT Personajes (#PCDATA)>
+<!ELEMENT Personaje (Caracteristicas fisicas, planeta)>
+
+    <!ATTLIST Personaje Id CDATA #REQUIRED>
+    <!ATTLIST Personaje Nombre CDATA #REQUIRED>
+    <!ATTLIST Personaje Anno Nacimiento CDATA #REQUIRED>
+    <!ATTLIST Personaje Genero CDATA #REQUIRED>
+
+<!ELEMENT Cracteristicas fisicas (Caracteristicas fisicas+)>
+<!ELEMENT Caracteristicas fisicas (#PCDATA)>
+<!ELEMENT Caracteristicas fisicas (Altura, Peso, Color_pelo, Color_piel, Color_ojos)>
+
+    <!ATTLIST Caracteristicas fisicas Altura CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas fisicas Peso CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas fisicas Color_pelo CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas fisicas Color_piel CDATA #REQUIRED>
+    <!ATTLIST Caracteristicas fisicas Color_ojos CDATA #REQUIRED>
+
+    <!ATTLIST Planeta Id CDATA #REQUIRED>
+    <!ATTLIST Planeta Nombre CDATA #REQUIRED>
+    <!ATTLIST Planeta Población CDATA #REQUIRED>
+    <!ATTLIST Planeta Idioma CDATA #REQUIRED>
+
+<!ELEMENT Planeta (Planeta+)>
+<!ELEMENT Planeta (#PCDATA)>
+<!ELEMENT Planeta (Datos físicos, superficie)>
+
+    <!ATTLIST Datos fisicos Periodo Rotación CDATA #REQUIRED>
+    <!ATTLIST Datos fisicos Periodo Orbital CDATA #REQUIRED>
+    <!ATTLIST Datos fisicos Diámetro CDATA #REQUIRED>
+    <!ATTLIST Datos fisicos Clima CDATA #REQUIRED>
+
+    <!ATTLIST Superficie Terreno CDATA #REQUIRED>
+    <!ATTLIST Superficie Agua CDATA #REQUIRED>
+-->
+
+<personajes>
+    <personaje id="001-PF" nombre="Luke Skywalker" anno_nacimiento="19BBY" genero="masculino">
+        <caracteristicas_fisicas altura="172" peso="77" color_pelo="rubio" color_piel="clara" color_ojos="azul"/>
+        <planeta id="0001" nombre="Tatooine" poblacion="200000" idioma="galactico básico">
+            <datos_fisicos periodo_rotacion="23" periodo_orbital="304" diametro="10465" clima="árido">
+                <superficie terreno="desértico" agua="1"/>
+            </datos_fisicos>
+        </planeta>
+    </personaje>
+    <personaje id="002-RP" nombre="C-3PO" anno_nacimiento="112BBY" genero="n/a">
+        <caracteristicas_fisicas altura="167" peso="75" color_pelo="n/a" color_piel="dorado" color_ojos="amarillo"/>
+        <planeta id="0001" nombre="Tatooine" poblacion="200000" idioma="galactico básico">
+            <datos_fisicos periodo_rotacion="23" periodo_orbital="304" diametro="10465" clima="árido">
+                <superficie terreno="desértico" agua="1"/>
+            </datos_fisicos>
+        </planeta>
+    </personaje>
+    <personaje id="003-RA" nombre="R2-D2" anno_nacimiento="33BBY" genero="n/a">
+        <caracteristicas_fisicas altura="96" peso="32" color_pelo="n/a" color_piel="blanco, azul" color_ojos="rojo"/>
+        <planeta id="0008" nombre="Naboo" poblacion="4500000000" idioma="gungans, galactico básico">
+            <datos_fisicos periodo_rotacion="26" periodo_orbital="312" diametro="12120" clima="temperate">
+                <superficie terreno="colinas" agua="12"/>
+            </datos_fisicos>
+        </planeta>
+
+    </personaje>
+    <personaje id="004-PF" nombre="Darth Vader" anno_nacimiento="419BBY" genero="masculino">
+        <caracteristicas_fisicas altura="202" peso="136" color_pelo="ninguno" color_piel="blanca" color_ojos="amarillo"/>
+        <planeta id="0001" nombre="Tatooine" poblacion="200000" idioma="galactico básico">
+            <datos_fisicos periodo_rotacion="23" periodo_orbital="304" diametro="10465" clima="árido">
+                <superficie terreno="desértico" agua="1"/>
+            </datos_fisicos>
+        </planeta>
+    </personaje>
+    <personaje id="005-PF" nombre="Leia Organa" anno_nacimiento="19BBY" genero="femenino">
+        <caracteristicas_fisicas altura="150" peso="49" color_pelo="marrón" color_piel="clara" color_ojos="marrón"/>
+        <planeta id="2" nombre="Alderaan" poblacion="2000000000" idioma="galactico básico">
+            <datos_fisicos periodo_rotacion="24" periodo_orbital="364" diametro="12500" clima="templado">
+                <superficie terreno="campos montañosos" agua="40"/>
+            </datos_fisicos>
+        </planeta>
+    </personaje>
+    <personaje id="006-PF" nombre="Owen Lars" anno_nacimiento="52BBY" genero="masculino">
+        <caracteristicas_fisicas altura="178" peso="120" color_pelo="marrón, gris" color_piel="clara" color_ojos="azul"/>
+        <planeta id="0001" nombre="Tatooine" poblacion="200000" idioma="galactico básico">
+            <datos_fisicos periodo_rotacion="23" periodo_orbital="304" diametro="10465" clima="árido">
+                <superficie terreno="desértico" agua="1"/>
+            </datos_fisicos>
+        </planeta>
+    </personaje>
+>>>>>>> db94ad15ac201eea3102b63c5924b3629b01565a
 </personajes>
