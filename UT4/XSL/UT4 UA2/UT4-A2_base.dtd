@@ -1,0 +1,7 @@
+<!ELEMENT output EMPTY>
+<!ATTLIST output method NMTOKEN #REQUIRED>
+<!ATTLIST output encoding NMTOKEN #REQUIRED>
+<!ELEMENT ventas (categoria+)>
+<!ELEMENT categoria (nombre,venta)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT venta (#PCDATA)>

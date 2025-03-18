@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="UT4-A2 _Respuesta alternativa.xsl" type="text/xsl"?>
 <ventas>
     <categoria>
         <nombre>Electrónica</nombre>
